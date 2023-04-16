@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.tensai.wcf.reactionsLimiter" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Reactions Limiter</packagename>
+		<packagename language="de">Reaktionen Limitierung</packagename>
+		<packagedescription>Limits the allowed reactions for user groups within the last 24 h, 7 days and 30 days.</packagedescription>
+		<packagedescription language="de">Limitiert die Anzahl an erlaubten Reaktionen für Benutzer-Gruppen innerhalb der letzten 24 h, 7 Tage und 30 Tage.</packagedescription>
+		<version>1.0.0</version>
+		<date>2023-04-16</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Tensai</author>
+		<authorurl>https://github.com/Tensai75</authorurl>
+	</authorinformation>
+
+    <requiredpackages>
+		<requiredpackage minversion="5.2.*">com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+    
+    <compatibility>
+        <api version="2018" />
+    </compatibility>
+
+	<instructions type="update" fromversion="*">
+		<instruction type="file" application="wcf"/>
+		<instruction type="userGroupOption" />
+		<instruction type="language" />
+		<instruction type="eventListener" />
+	</instructions>
+
+	<instructions type="install">
+		<instruction type="file" application="wcf"/>
+		<instruction type="userGroupOption" />
+		<instruction type="language" />
+		<instruction type="eventListener" />
+	</instructions>
+</package>

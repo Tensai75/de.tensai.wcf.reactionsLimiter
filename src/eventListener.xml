@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/eventListener.xsd">
+	<import>
+		<eventlistener name="ReactionLimiter">
+			<eventclassname>wcf\data\AbstractDatabaseObjectAction</eventclassname>
+			<eventname>validateAction</eventname>
+			<environment>user</environment>
+			<listenerclassname>wcf\system\event\listener\ReactionLimitertListener</listenerclassname>
+			<inherit>1</inherit>
+		</eventlistener>
+	</import>
+</data>

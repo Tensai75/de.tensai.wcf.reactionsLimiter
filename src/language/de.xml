@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.like.maxLikesPerDay"><![CDATA[Maximal erlaubte Anzahl Reaktionen innerhalb der letzten 24 h]]></item>
+		<item name="wcf.acp.group.option.user.like.maxLikesPerDay.description"><![CDATA[(0 = keine Limite)]]></item>
+		<item name="wcf.acp.group.option.user.like.maxLikesPerWeek"><![CDATA[Maximal erlaubte Anzahl Reaktionen innerhalb der letzten 7 Tage]]></item>
+		<item name="wcf.acp.group.option.user.like.maxLikesPerWeek.description"><![CDATA[(0 = keine Limite)]]></item>
+		<item name="wcf.acp.group.option.user.like.maxLikesPerMonth"><![CDATA[Maximal erlaubte Anzahl Reaktionen innerhalb der letzten 30 Tage]]></item>
+		<item name="wcf.acp.group.option.user.like.maxLikesPerMonth.description"><![CDATA[(0 = keine Limite)]]></item>
+	</category>
+	<category name="wcf.like">
+		<item name="wcf.like.maxLikesPerDayReached"><![CDATA[Die maximal erlaubte Anzahl Reaktionen innerhalb der letzten 24 h wurde erreicht.]]></item>
+		<item name="wcf.like.maxLikesPerWeekReached"><![CDATA[Die maximal erlaubte Anzahl Reaktionen innerhalb der letzten 7 Tage wurde erreicht.]]></item>
+		<item name="wcf.like.maxLikesPerMonthReached"><![CDATA[Die maximal erlaubte Anzahl Reaktionen innerhalb der letzten 30 Tage wurde erreicht.]]></item>
+	</category>
+</language>
