@@ -13,3 +13,8 @@ Woltlab Suite v5.2
 
 ### Limitations
 The reaction limiter does count all reactions regardless of the likeable object type.
+
+### Change log
+#### v1.0.1
+- fix for typo in the listener name
+- use standard SQL syntax
