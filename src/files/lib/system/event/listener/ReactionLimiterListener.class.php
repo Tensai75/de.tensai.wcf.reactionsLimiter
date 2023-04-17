@@ -8,7 +8,7 @@ use wcf\system\exception\NamedUserException;
  * @author 	Tensai
  * @package	de.tensai.wcf.reactionsLimiter
  */
-class ReactionLimitertListener implements IParameterizedEventListener {
+class ReactionLimiterListener implements IParameterizedEventListener {
 
 	/**
 	 * @see	wcf\system\event\IEventListener::execute()

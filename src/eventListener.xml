@@ -5,7 +5,7 @@
 			<eventclassname>wcf\data\AbstractDatabaseObjectAction</eventclassname>
 			<eventname>validateAction</eventname>
 			<environment>user</environment>
-			<listenerclassname>wcf\system\event\listener\ReactionLimitertListener</listenerclassname>
+			<listenerclassname>wcf\system\event\listener\ReactionLimiterListener</listenerclassname>
 			<inherit>1</inherit>
 		</eventlistener>
 	</import>
