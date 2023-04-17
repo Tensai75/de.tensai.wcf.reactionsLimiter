@@ -23,7 +23,7 @@ class ReactionLimiterListener implements IParameterizedEventListener {
 			
 			$maxLikesPerDay = intval(WCF::getSession()->getPermission('user.like.maxLikesPerDay'));
 			if ($maxLikesPerDay > 0) {
-				$sql = "SELECT COUNT(likeID) FROM wcf".WCF_N."_like WHERE userID=? && time > ?";
+				$sql = "SELECT COUNT(likeID) FROM wcf".WCF_N."_like WHERE userID=? AND time > ?";
 				$statement = WCF::getDB()->prepareStatement($sql);
 				$statement->execute([WCF::getUser()->userID, time()-$day]);
 				$row = $statement->fetchArray();
@@ -34,7 +34,7 @@ class ReactionLimiterListener implements IParameterizedEventListener {
 			
 			$maxLikesPerWeek = intval(WCF::getSession()->getPermission('user.like.maxLikesPerWeek'));
 			if ($maxLikesPerWeek > 0) {
-				$sql = "SELECT COUNT(likeID) FROM wcf".WCF_N."_like WHERE userID=? && time > ?";
+				$sql = "SELECT COUNT(likeID) FROM wcf".WCF_N."_like WHERE userID=? AND time > ?";
 				$statement = WCF::getDB()->prepareStatement($sql);
 				$statement->execute([WCF::getUser()->userID, time()-$week]);
 				$row = $statement->fetchArray();
@@ -45,7 +45,7 @@ class ReactionLimiterListener implements IParameterizedEventListener {
 			
 			$maxLikesPerMonth = intval(WCF::getSession()->getPermission('user.like.maxLikesPerMonth'));
 			if ($maxLikesPerMonth > 0) {
-				$sql = "SELECT COUNT(likeID) FROM wcf".WCF_N."_like WHERE userID=? && time > ?";
+				$sql = "SELECT COUNT(likeID) FROM wcf".WCF_N."_like WHERE userID=? AND time > ?";
 				$statement = WCF::getDB()->prepareStatement($sql);
 				$statement->execute([WCF::getUser()->userID, time()-$month]);
 				$row = $statement->fetchArray();
