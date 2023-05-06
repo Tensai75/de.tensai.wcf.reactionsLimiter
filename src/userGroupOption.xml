@@ -5,17 +5,17 @@
 			<option name="user.like.maxLikesPerDay">
 				<categoryname>user.like</categoryname>
 				<optiontype>Integer</optiontype>
-				<userdefaultvalue>0</userdefaultvalue>
+				<defaultvalue>0</defaultvalue>
 			</option>
 			<option name="user.like.maxLikesPerWeek">
 				<categoryname>user.like</categoryname>
 				<optiontype>Integer</optiontype>
-				<userdefaultvalue>0</userdefaultvalue>
+				<defaultvalue>0</defaultvalue>
 			</option>
 			<option name="user.like.maxLikesPerMonth">
 				<categoryname>user.like</categoryname>
 				<optiontype>Integer</optiontype>
-				<userdefaultvalue>0</userdefaultvalue>
+				<defaultvalue>0</defaultvalue>
 			</option>
 		</options>
 	</import>
