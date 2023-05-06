@@ -1,6 +1,6 @@
 {
   "name": "de.tensai.wcf.reactionsLimiter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Woltlab Community Suite plugin to limit the allowed reactions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -5,8 +5,8 @@
 		<packagename language="de">Reaktionen Limitierung</packagename>
 		<packagedescription>Limits the allowed reactions for user groups within the last 24 h, 7 days and 30 days.</packagedescription>
 		<packagedescription language="de">Limitiert die Anzahl an erlaubten Reaktionen für Benutzer-Gruppen innerhalb der letzten 24 h, 7 Tage und 30 Tage.</packagedescription>
-		<version>1.0.1</version>
-		<date>2023-04-17</date>
+		<version>1.0.2</version>
+		<date>2023-05-06</date>
 	</packageinformation>
 
 	<authorinformation>
