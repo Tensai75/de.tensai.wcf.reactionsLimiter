@@ -15,10 +15,13 @@ Woltlab Suite v5.2
 The reaction limiter does count all reactions regardless of the likeable object type.
 
 ### Change log
-#### v1.0.1
-- fix for typo in the listener name
-- use standard SQL syntax
+#### v1.0.3
+- Bug fix: only show error message on actual react action
 
 #### v1.0.2
 - set default value for all group types
 - set minimum value to 0
+
+#### v1.0.1
+- fix for typo in the listener name
+- use standard SQL syntax

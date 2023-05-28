@@ -19,7 +19,7 @@ class ReactionLimiterListener implements IParameterizedEventListener {
 		$week = $day * 7;
 		$month = $day * 30;
 
-		if ($className == 'wcf\data\reaction\ReactionAction' && $eventName == 'validateAction') {
+		if ($className == 'wcf\data\reaction\ReactionAction' && $eventObj->getActionName() == 'react' && $eventName == 'validateAction') {
 			
 			$maxLikesPerDay = intval(WCF::getSession()->getPermission('user.like.maxLikesPerDay'));
 			if ($maxLikesPerDay > 0) {
